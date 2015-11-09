@@ -6,8 +6,8 @@ public class Receta : MonoBehaviour {
 	public const int n=6; //numero de elementos del vector receta
 
 	string [] receta = new string[n];
-	string [] receta1 = new string[n]{"receta1","Diabolo de Frutas","manzanaQ","banano","uvas","mandarina"};
-	string [] receta2 = new string[n]{"receta2","Jugo","papaamarilla","tomate","banano","mandarina"};
+	string [] receta1 = new string[n]{"7","Diabolo de Frutas","manzanaQ","bananoQ","uvas","mandarinaQ"};
+	string [] receta2 = new string[n]{"9","Pizza de Frutas","manzanaQ","fresaQ","bananoQ","mandarina"};
 	string [] receta3 = new string[n]{"receta3","","","","",""};
 	string [] receta4 = new string[n]{"receta4","","","","",""};
 	string [] receta5 = new string[n]{"receta5","","","","",""};

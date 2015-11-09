@@ -40,9 +40,12 @@ public class ComportamientoCuchillo : MonoBehaviour {
 
 		if(ingre != null){
 			string nom = ingre.name;
+			Vector3 poscol = ingre.transform.position;
+			object [] nomcol = new object[]{nom, poscol.x, poscol.y};
+			Debug.Log("Punto de colision: ("+poscol.x+", "+poscol.y+")");
 			Debug.Log("Nombre del ingrediente Notificacion: "+nom);
 			gameObject.transform.position = new Vector3(6.5f, 2.2f, 0f);
-			NotificationCenter.DefaultCenter().PostNotification(this, "cortarCuchillo", nom);
+			NotificationCenter.DefaultCenter().PostNotification(this, "cortarCuchillo", nomcol);
 
 			Debug.Log("contBox: "+contBox);
 			if(contBox==0){

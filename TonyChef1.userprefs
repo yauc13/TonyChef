@@ -1,8 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scrips\Puntuacion.cs">
     <Files>
-      <File FileName="Assets\Scrips\Puntuacion.cs" Line="208" Column="12" />
+      <File FileName="Assets\Scrips\ComportamientoCuchillo.cs" Line="58" Column="34" />
+      <File FileName="Assets\Scrips\Puntuacion.cs" Line="373" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

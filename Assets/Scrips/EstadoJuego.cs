@@ -3,8 +3,11 @@ using System.Collections;
 using System;
 using System.Runtime.Serialization.Formatters.Binary;
 using System.IO;
+using UnityEngine.UI;
 
 public class EstadoJuego : MonoBehaviour {
+	public float tiempo = 0.0f;
+	//public Text reloj; 
 
 	public int puntuacionMaxima = 0;
 	public int objetosCanasta = 0;
@@ -17,6 +20,8 @@ public class EstadoJuego : MonoBehaviour {
 		rutaArchivo = Application.persistentDataPath + "/datos.dat"; //carga la ruta de los puntos
 		//condicion para saber si ya hay una instancia del objeto, si la hay
 		//entonces la elimina, sino la crea, asi se pasa un objeto entre escenas
+
+
 		if(estadoJuego==null){
 			estadoJuego = this;
 			DontDestroyOnLoad(gameObject);
@@ -32,7 +37,8 @@ public class EstadoJuego : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-	
+		tiempo += Time.deltaTime;
+
 	}
 
 	public void Guardar(){
