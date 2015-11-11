@@ -62,6 +62,7 @@
      <Compile Include="Assets\Scrips\Puntuacion.cs" />
      <Compile Include="Assets\Scrips\Receta.cs" />
      <Compile Include="Assets\Scrips\Timer.cs" />
+     <Compile Include="Assets\Scrips\VerReceta.cs" />
      <Compile Include="Assets\Scrips\comportamientoAgua.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>

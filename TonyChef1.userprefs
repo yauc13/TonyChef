@@ -1,9 +1,11 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scrips\Puntuacion.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scrips\VerReceta.cs">
     <Files>
-      <File FileName="Assets\Scrips\ComportamientoCuchillo.cs" Line="58" Column="34" />
-      <File FileName="Assets\Scrips\Puntuacion.cs" Line="373" Column="3" />
+      <File FileName="Assets\Scrips\VerReceta.cs" Line="60" Column="40" />
+      <File FileName="Assets\Scrips\Pause.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scrips\Puntuacion.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scrips\Receta.cs" Line="10" Column="41" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
